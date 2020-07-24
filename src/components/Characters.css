@@ -1,0 +1,57 @@
+.characters{
+    padding: 1em;
+}
+.character-img {
+    border-radius: 20px;
+    overflow: hidden;
+}
+.character-img > img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.characters-component{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 2em;
+}
+
+.characters-settings{
+    margin-bottom: 2em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings-search {
+    width: 35%;
+}
+
+.settings-search > input{
+    width: 100%;
+    padding: 1.3em;
+    background-color: #eee;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 15px;
+}
+
+.settings-filter {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.settings-filter > select {
+    background-color: #eee;
+    border-radius: 15px;
+    margin-left: 1em;
+    border: none;
+    outline: none;
+    padding: 1.3em;
+    width: 200px;
+    font-size: 15px;
+    
+}
